@@ -1,0 +1,105 @@
+/*Artists*/
+.artists {
+  margin: 40px;
+  text-align: center;
+  color: white;
+}
+
+.artists h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.artists .row {
+  margin: 50px 0;
+
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.artists .column {
+  text-align: center;
+  width: 15%;
+  padding: 0;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
+
+.artists .card {
+  width: 100%;
+  padding: 3px;
+  background: linear-gradient(to left, #1d2f7f, #4b2a3a);
+  border-radius: 2em;
+}
+
+.cardIno {
+  background: linear-gradient(to left, #1d2f7f, #4b2a3a);
+  padding: 30px 10px;
+  text-align: left;
+  border-radius: 1.8em;
+}
+
+.artists .bg {
+  background-size: cover;
+  background-image: url("../../assets/Images/bg.png");
+  padding: 3px;
+  border-radius: 1.8em;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.cardIno img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.cardIno h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cardIno p {
+  padding: 2px 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+/*End of artists*/
+
+
+/*media*/
+@media screen and (max-width: 700px) {
+  .artists {
+    margin: 80px 20px 0px 20px;
+  }
+
+  .sub p {
+    width: 95%;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+
+  .artists .column {
+    width: 44%;
+    padding-left: 0px;
+  }
+
+  .cardIno h3 {
+    font-size: 18px;
+  }
+  
+  .cardIno p {
+    font-size: 12px;
+  }
+
+}
+
+/*end of media*/

@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
+import Navbar from './components/Navbar/Navbar';
+// <Navbar />
+
+import Header from './components/Header/Header';
+//<Header />
+
+import Journey from './components/Journey/Journey';
+//<Journey />
+
+import TrendingNft from './components/TrendingNft/TrendingNft';
+//<TrendingNft />
+
+import Artists from './components/Artists/Artists';
+//<Artists />
+
+import Subscribe from './components/Subscribe/Subscribe';
+//<Subscribe />
+
+import Project from './components/Project/Project';
+//  <Project />
+
+import Footer from './components/Footer/Footer';
+
+
+
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <Navbar />
+      <Header />
+
+      <main>
+        <Journey />
+        <TrendingNft />
+        <Artists />
+        <Subscribe />
+        <Project />
+      </main>
+
+      <Footer />
+
+   
+    </div >
   );
 }
 

@@ -1,0 +1,147 @@
+/*Footer*/
+footer {
+  margin: 80px;
+  color: white;
+}
+
+footer .column1 {
+  float: left;
+  width: 36%;
+  padding: 0 10px;
+  padding-bottom: 20px;
+
+
+}
+
+footer .column2 {
+  float: left;
+  width: 60%;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+footer h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.column2 .column {
+  float: left;
+  width: 25%;
+  padding: 0;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+footer .column {
+  float: left;
+  width: 50%;
+  padding: 0;
+  padding-bottom: 20px;
+  /*margin-right: 40px;*/
+}
+
+.socials{
+  display: flex;
+  justify-content: flex-end;
+}
+footer table {
+  border-spacing: 60px 10px;
+  width: 20%;
+  text-align: center;
+}
+
+footer img {
+  width: 25px;
+  filter: brightness(0) saturate(100%) invert(30%) sepia(83%) saturate(2257%) hue-rotate(253deg) brightness(105%) contrast(97%);
+}
+
+.lastSect {
+  margin: 30px;
+}
+
+.lastSect .column {
+  float: left;
+  width: 33%;
+  padding: 0;
+
+}
+
+#copy {
+  text-align: center;
+}
+
+#team {
+  text-align: right;
+}
+
+/*End of footer*/
+
+
+/*media*/
+@media screen and (max-width: 700px) {
+  footer {
+    margin: 80px 30px;
+
+  }
+
+  footer .column1,
+  footer .column2 {
+    width: 95%;
+  }
+
+  footer .column1 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .column2 .column {
+    width: 95%;
+    padding: 0;
+    padding-bottom: 20px;
+    text-align: left;
+
+    font-size: 13px;
+    text-align: center;
+
+  }
+
+  footer .column {
+    width: 98%;
+  }
+
+  footer p{
+    font-size: 13px;
+    text-align: center;
+
+    margin: 0 0 20px 0;
+  }
+
+  footer table {
+    border-spacing: 70px 10px;
+    width: 100%;
+  }
+
+  .lastSect {
+    margin: 10px;
+    font-size: 12px;
+  }
+
+  .lastSect .column {
+    float: left;
+    width: 33%;
+    padding: 0;
+
+  }
+
+  
+}
+
+/*end of media*/

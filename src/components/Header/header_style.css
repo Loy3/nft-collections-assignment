@@ -1,0 +1,429 @@
+/*Header*/
+header {
+  margin: 20px 0 0 0;
+  color: white;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.wrapper {
+  margin: 0 80px;
+}
+
+.wrapper h1 {
+  margin: 10px 0;
+  font-size: 50px;
+  font-family: 'Londrina Outline', cursive;
+  font-weight: normal;
+}
+
+.wrapper .column1 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+  padding-bottom: 20px;
+
+}
+
+.wrapper .column2 {
+  float: right;
+  width: 45%;
+  padding: 0 10px;
+  padding-bottom: 20px;
+position: relative;
+}
+
+.wrapper p {
+  font-size: 14px;
+}
+
+.search {
+  margin: 40px 0 30px 0;
+
+  background-color: transparent;
+  border: 2px solid white;
+  width: 85%;
+  border-radius: 10em;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.search button {
+  font-weight: normal;
+ position: absolute;
+ right: 1px;
+  height: 45px;
+  margin: 5px 5px;
+}
+
+.search input {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+position: absolute;
+left: 1px;
+margin: 5px 10px;
+width: 250px;
+}
+
+.ratings {
+  margin-left: 50px;
+}
+
+.ratings .column {
+  float: left;
+  width: 25%;
+  padding: 0 0px;
+  padding-bottom: 20px;
+
+
+}
+
+.rate {
+  font-size: 30px;
+}
+
+.rText {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.cT {
+  margin: 5px 0;
+}
+
+.cr {
+  padding-right: 35px;
+  border-right: 2px solid white;
+
+}
+
+.teamImg {
+  position: relative;
+  margin-left: 40px;
+}
+
+.img1,
+.img2,
+.img3 {
+  height: 45px;
+  width: 45px;
+  border: 2px solid white;
+  border-radius: 10em;
+}
+
+.img1 {
+  position: relative;
+  margin-left: 0px;
+  z-index: 3;
+}
+
+.img2 {
+  position: relative;
+  margin-left: -20px;
+  z-index: 1;
+}
+
+.img3 {
+  position: relative;
+  margin-left: -20px;
+
+}
+
+.cT a {
+  padding-left: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.cT a:hover {
+  color: #aa4cfb;
+}
+
+
+.cT h2 {
+  font-weight: 300;
+}
+
+.spons {
+  margin: 200px 0 0 0;
+  background-color: #222345;
+  padding: 10px 40px;
+}
+
+.spons .column {
+  float: left;
+  width: 20%;
+}
+
+
+.headImg {
+  position: relative;
+
+}
+
+.headImg1 {
+
+  width: 350px;
+
+  clip-path: polygon(0 10%,
+      10% 0,
+      90% 0,
+      100% 10%,
+      100% 90%,
+      90% 100%,
+      10% 100%,
+      0% 90%,
+      0% 10%)
+    /*border*/
+}
+
+.headImg2 {
+
+  width: 270px;
+
+  clip-path: polygon(0 10%,
+      10% 0,
+      90% 0,
+      100% 10%,
+      100% 90%,
+      90% 100%,
+      10% 100%,
+      0% 90%,
+      0% 10%)
+}
+
+
+.border1,
+.border2 {
+  position: absolute;
+  padding: 20px;
+  border: 3px solid white;
+
+  clip-path: polygon(0 15%,
+      15% 0,
+      85% 0,
+      100% 15%,
+      100% 85%,
+      85% 100%,
+      15% 100%,
+      0% 85%,
+      0% 10%)
+}
+
+.border1 {
+  right: 30px;
+}
+
+.border2 {
+  left: -50px;
+  top: 250px;
+  ;
+}
+
+.explore {
+  position: absolute;
+  right: 15px;
+  top: 480px;
+}
+
+.explore button {
+  position: absolute;
+  right: -15px;
+  font-size: 16px;
+  border-radius: 50%;
+  top: 38px
+}
+
+.explore img {
+  position: absolute;
+  right: 105px;
+
+  width: 170px;
+}
+
+#brLogo {
+  text-align: center;
+}
+
+#brLogo img {
+  width: 170px;
+}
+
+/*end of header*/
+
+
+/*media*/
+@media screen and (max-width: 700px) {
+
+  header {
+    margin: 0;
+  }
+
+  .wrapper .column1,
+  .wrapper .column2 {
+    width: 95%;
+    float: none;
+  }
+
+  .wrapper .column1 {
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+  .wrapper .column2 {
+    margin-top: 40px;
+    margin-bottom: 250px;
+  }
+
+  .wrapper {
+    margin: 0 25px;
+  }
+
+  .wrapper h1 {
+    font-size: 40px;
+  }
+
+  .column1 p{
+font-size: 12px;
+  }
+
+  .search {
+    margin: 30px 0 20px 0;
+    width: 98%;
+
+  }
+
+  .search input {
+    font-size: 12px;
+    width: 200px;
+
+  }
+  
+  .search button {
+    font-weight: normal;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .ratings {
+    margin-left: 10px;
+  }
+
+  .rate {
+    font-size: 22px;
+  }
+
+  .rText {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .ratings .column {
+
+    width: 33%;
+
+  }
+
+  .cr {
+    padding-right: 10px;
+
+  }
+
+  .cr h2 {
+    font-size: 15px;
+  }
+
+  .cT td {
+    width: 30%;
+  }
+
+  .teamImg {
+    margin-left: 10px;
+  }
+
+  .img1,
+.img2,
+.img3 {
+  height: 35px;
+  width: 35px;
+}
+
+
+.img2, .img3 {
+  margin-left: -15px;
+}
+
+.cT a {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+  .headImg1 {
+
+    width: 220px;
+  }
+
+  .headImg2 {
+    width: 180px;
+  }
+
+
+  .border1,
+  .border2 {
+    padding: 10px;
+  }
+
+  .border1 {
+    right: 10px;
+  }
+
+  .border2 {
+    left: -5px;
+    top: 160px;
+  }
+
+
+  .explore {
+    top: 32vh;
+    right: 15%;
+    bottom: 0 !important;
+
+  }
+
+  .explore button {   
+   
+    font-size: 16px;
+    bottom: 30px;
+
+    font-size: 12px !important;
+    width: 80px !important;
+    height: 40px !important;
+  }
+
+  .explore img {
+    display: none;
+  }
+
+  #brLogo img {
+    width: 60px;
+  }
+
+  .spons {
+    margin: 200px 0 0 0;
+    background-color: #222345;
+    padding: 10px 20px;
+  }
+
+  .spons .column {
+    float: left;
+    width: 20%;
+  }
+}
+
+/*end of media*/
