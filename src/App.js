@@ -35,16 +35,18 @@ function App() {
       <Header />
 
       <main>
-        <Journey />
-        <TrendingNft />
-        <Artists />
-        <Subscribe />
-        <Project />
+        <div>
+          <Journey />
+          <TrendingNft />
+          <Artists />
+          <Subscribe />
+          <Project />
+        </div>
       </main>
 
       <Footer />
 
-   
+
     </div >
   );
 }

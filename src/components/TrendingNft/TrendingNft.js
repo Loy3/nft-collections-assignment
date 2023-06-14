@@ -102,9 +102,9 @@ function TrendingNft() {
                         <div id='profile'>
                             <div className="row" >
                                 <div className="lImg">
-                                  
-                                        <img src={require(`../../assets/Port/${tnft.profileImg}`)} alt='Logo' />
-                                    
+
+                                    <img src={require(`../../assets/Port/${tnft.profileImg}`)} alt='Logo' />
+
                                 </div>
                                 <div className="lText">
                                     {tnft.proName}
@@ -112,7 +112,7 @@ function TrendingNft() {
                             </div>
 
                         </div>
-                        <div  id="btn">
+                        <div id="btn">
                             <div className='right'>
                                 <button>
                                     Place Bid
@@ -127,46 +127,48 @@ function TrendingNft() {
     )
 
     return <div className='trending'>
-        <h1>
-            TRENDING NFT THIS WEEK
-        </h1>
+        <div className="page">
+            <h1>
+                TRENDING NFT THIS WEEK
+            </h1>
 
-        <div className='sub'>
-            <p>
-                It is illegal to screenshot an NFT and pass it off as your own. It is also illegal to post it online or
-                make a physical copy.
-            </p>
-        </div>
-
-        <div id='categories'>
-
-            <div className='row'>
-                <div className='column'>
-                    <button className='categories'>All Categories</button>
-                </div>
-                <div className='column'>
-                    <button>Art</button>
-                </div>
-                <div className='column'>
-                    <button>Abstract</button>
-                </div>
-                <div className='column'>
-                    <button>Video</button>
-                </div>
-                <div className='column'>
-                    <button>Game</button>
-                </div>
+            <div className='sub'>
+                <p>
+                    It is illegal to screenshot an NFT and pass it off as your own. It is also illegal to post it online or
+                    make a physical copy.
+                </p>
             </div>
 
-        </div>
+            <div id='categories'>
 
-        <br />
-        <br />
+                <div className='row'>
+                    <div className='column'>
+                        <button className='categories'>All Categories</button>
+                    </div>
+                    <div className='column'>
+                        <button>Art</button>
+                    </div>
+                    <div className='column'>
+                        <button>Abstract</button>
+                    </div>
+                    <div className='column'>
+                        <button>Video</button>
+                    </div>
+                    <div className='column'>
+                        <button>Game</button>
+                    </div>
+                </div>
 
-        <div className='row'>
-            {
-                nftArr
-            }
+            </div>
+
+            <br />
+            <br />
+
+            <div className='row'>
+                {
+                    nftArr
+                }
+            </div>
         </div>
     </div>
 

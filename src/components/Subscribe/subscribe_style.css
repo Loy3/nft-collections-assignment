@@ -3,6 +3,9 @@
 .subscribe {
     margin: 150px 80px;
     color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
   
   .subscribe h1 {

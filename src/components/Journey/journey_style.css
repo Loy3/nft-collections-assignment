@@ -4,8 +4,11 @@
     margin: 130px 50px;
     text-align: center;
     color: white;
+    display: flex;
+    justify-content: center;
   }
-  
+
+
   .journey h1 {
     font-size: 50px;
     margin: 0;

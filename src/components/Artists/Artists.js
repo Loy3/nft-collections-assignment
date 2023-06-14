@@ -85,6 +85,7 @@ function Artists() {
   );
 
   return <div className='artists'>
+    <div className="page">
     <h1>
       TOP ARTIST
     </h1>
@@ -98,7 +99,7 @@ function Artists() {
     <div className='row'>
       {artArr}
     </div>
-
+    </div>
 
   </div>
 

@@ -42,118 +42,120 @@ function Header() {
   )
 
   return <header>
-    <div className='wrapper'>
-      <div className='row'>
-        <div className='column1'>
+    <div>
+      <div className='wrapper'>
+        <div className='row'>
+          <div className='column1'>
 
-          <h1>DISCOVER AN AMAZING
-            <br />NFT COLLECTION
-          </h1>
+            <h1>DISCOVER AN AMAZING
+              <br />NFT COLLECTION
+            </h1>
 
-          <p>
-            {paragraph}
-          </p>
+            <p>
+              {paragraph}
+            </p>
 
-          <div className='search'>
-            <input type="text" placeholder='What You Want Looking For '></input>
-            <button>Search</button>
-          </div>
+            <div className='search'>
+              <input type="text" placeholder='What You Want Looking For '></input>
+              <button>Search</button>
+            </div>
 
-          <div className='ratings'>
-            <div className='row'>
-              <div className='column'>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td className='rate'>320+</td>
-                      <td className='rText'>
-                        Project
-                        <br /> Done
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            <div className='ratings'>
+              <div className='row'>
+                <div className='column'>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td className='rate'>320+</td>
+                        <td className='rText'>
+                          Project
+                          <br /> Done
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
-              <div className='column'>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td className='rate'>60+</td>
-                      <td className='rText'>
-                        Creative
-                        <br />People
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                <div className='column'>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td className='rate'>60+</td>
+                        <td className='rText'>
+                          Creative
+                          <br />People
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
-              <div className='column'>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td className='rate'>200+</td>
-                      <td className='rText'>
-                        Happy
-                        <br />Client
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div className='column'>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td className='rate'>200+</td>
+                        <td className='rText'>
+                          Happy
+                          <br />Client
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
+
+            <div className='cT'>
+              <table>
+                <tbody>
+                  <tr>
+                    <td className='cr'>
+                      <h2>CREATIVE BY</h2>
+                    </td>
+                    <td>
+                      <div className='teamImg'>
+                        <img src={port1} alt='Logo' className='img1' />
+                        <img src={port2} alt='Logo' className='img2' />
+                        <img src={port3} alt='Logo' className='img3' />
+
+                      </div>
+                    </td>
+                    <td>
+                      <a href='/'>
+                        View Team
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
           </div>
 
-          <div className='cT'>
-            <table>
-              <tbody>
-                <tr>
-                  <td className='cr'>
-                    <h2>CREATIVE BY</h2>
-                  </td>
-                  <td>
-                    <div className='teamImg'>
-                      <img src={port1} alt='Logo' className='img1' />
-                      <img src={port2} alt='Logo' className='img2' />
-                      <img src={port3} alt='Logo' className='img3' />
+          <div className='column2'>
+            <div className='headImg'>
+              <div className='border1'>
+                <img src={require('../../assets/NFT/1.png')} className='headImg1' alt='Logo' />
+              </div>
 
-                    </div>
-                  </td>
-                  <td>
-                    <a href='/'>
-                      View Team
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <div className='border2'>
+                <img src={require('../../assets/NFT/2.png')} className='headImg2' alt='Logo' />
+              </div>
+            </div>
+            <br />
+            <div className="explore">
+              <img src={arrow} alt='Logo' />
+              <button className=''>Explore</button>
+            </div>
           </div>
+        </div >
+      </div>
+      <div className='spons'>
+        <div className='row'>
+          {logo}
 
         </div>
-
-        <div className='column2'>
-          <div className='headImg'>
-            <div className='border1'>
-              <img src={require('../../assets/NFT/1.png')} className='headImg1' alt='Logo' />
-            </div>
-
-            <div className='border2'>
-              <img src={require('../../assets/NFT/2.png')} className='headImg2' alt='Logo' />
-            </div>
-          </div>
-          <br />
-          <div className="explore">
-          <img src={arrow} alt='Logo' />
-            <button className=''>Explore</button>
-          </div>
-        </div>
-      </div >
-    </div>
-    <div className='spons'>
-      <div className='row'>
-        {logo}
-
       </div>
     </div>
 

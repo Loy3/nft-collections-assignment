@@ -4,12 +4,15 @@
     margin: 300px 0 150px 0 ;
     text-align: center;
     color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
   
   .project .wrapper {
     border: 1px solid white;
     border-radius: 2em;
-  
+  margin: 0;
     padding: 14px;
   }
   

@@ -5,18 +5,20 @@ const paragraph = "Lorem ipsum dolor sit amet consectetur. Malesuada egestas var
 
 function Project() {
   return <div className='project'>
-    <div className='wrapper'>
-      <div className='card'>
-        <div className="pAlign">
-          <h1>NEVER MISS A DROP</h1>
-          <div className="sub">
-            <p>
-              {paragraph}
-            </p>
+    <div className="page">
+      <div className='wrapper'>
+        <div className='card'>
+          <div className="pAlign">
+            <h1>NEVER MISS A DROP</h1>
+            <div className="sub">
+              <p>
+                {paragraph}
+              </p>
+            </div>
+            <button>
+              Start Project
+            </button>
           </div>
-          <button>
-            Start Project
-          </button>
         </div>
       </div>
     </div>

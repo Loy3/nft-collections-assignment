@@ -49,18 +49,20 @@ function Journey() {
 
 
     return <div className='journey'>
-        <h1>
-            YOUR JOURNEY START HERE
-        </h1>
-        <div className='sub'>
-            <p >
-                Lorem ipsum dolor sit amet consectetur. laculis nisl purus et id pellentesque risus in lacus.
-                At suscipit onsectetur. Tortor non id arcu orci id.
-            </p>
-        </div>
+        <div className="page">
+            <h1>
+                YOUR JOURNEY START HERE
+            </h1>
+            <div className='sub'>
+                <p >
+                    Lorem ipsum dolor sit amet consectetur. laculis nisl purus et id pellentesque risus in lacus.
+                    At suscipit onsectetur. Tortor non id arcu orci id.
+                </p>
+            </div>
 
-        <div className='row'>
-            {card}
+            <div className='row'>
+                {card}
+            </div>
         </div>
     </div>
 }

@@ -3,7 +3,9 @@
   margin: 60px;
   text-align: center;
   color: white;
-
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .trending h1 {
